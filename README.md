@@ -29,7 +29,7 @@ To use the Phrase Improvement Engine, follow these steps:
 
 1. Clone or download the repository to your local machine.
 
-2. Place your input text in a plain text file (e.g., input.txt) that you want to improve.
+2. Place your input text in a plain text file (e.g., sample_text.txt) that you want to improve.
 
 3. Make sure you have a CSV file (e.g., 'Standardised terms.csv') with the standardized phrases you want to compare against.
 
