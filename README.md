@@ -9,7 +9,7 @@ The **Phrase Improvement Engine** is a Python script designed to analyze an inpu
 3. [CSV File Format](#csv-file-format)
 4. [How It Works](#how-it-works)
 5. [Example](#example)
-6. 
+
 ## Requirements
 
 To run the Phrase Improvement Engine, you need the following:
