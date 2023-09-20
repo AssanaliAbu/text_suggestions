@@ -83,13 +83,13 @@ need suggestions
 improve text
 
 
-When you run the script with python main.py --input simple_text.txt, it will output suggestions like:
-
+When you run the script with *python main.py --input simple_text.txt*, it will output suggestions like:
+```cmd
 Suggestions:
 Original: This is a simple example, Suggestion: simple example, Similarity Score: 0.9734365129470825  
 Original: I need some suggestions, Suggestion: need suggestions, Similarity Score: 0.9732131121385361  
 Original: Improve this text!, Suggestion: improve text, Similarity Score: 0.9999999377406093
-
+```
 The script identifies phrases in the input text and suggests replacing them with the most similar standardized phrases from your CSV file.
 
 Enjoy using the Phrase Improvement Engine!
