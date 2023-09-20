@@ -63,7 +63,13 @@ It reads the input text and splits it into individual phrases using punctuation 
 
 It calculates the semantic similarity between each phrase in the input text and the standardized phrases from the CSV file using spaCy's word vectors.
 
-If the similarity score for a phrase is above a specified threshold (0.95 by default), it suggests the most similar standardized phrase as a replacement.
+We calculate the semantic similarity between a given phrase and each of the standardized phrases using phrase.similarity(nlp(std_phrase)). The similarity method compares the word embeddings of the two phrases and returns a similarity score.
+
+We keep track of the maximum similarity score (max_similarity) and its corresponding standardized phrase (most_similar) for each input phrase.
+
+We apply a threshold (in this case, 0.95) to consider phrases as suggestions only if their similarity score is below the threshold. This is to ensure that we suggest replacements for phrases that are not very similar to the standardized phrases.
+
+While we're not explicitly using cosine similarity, the similarity method in spaCy internally uses word vectors and similarity calculations, which are similar in nature to cosine similarity. It measures the cosine of the angle between the word vectors in a multi-dimensional space to determine similarity.
 
 
 ## Example
