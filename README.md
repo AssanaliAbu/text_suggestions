@@ -83,7 +83,7 @@ need suggestions
 improve text
 
 
-When you run the script with __python main.py --input simple_text.txt__, it will output suggestions like:
+When you run the script with __python main.py --input sample_text.txt__, it will output suggestions like:
 ```cmd
 Suggestions:
 Original: This is a simple example, Suggestion: simple example, Similarity Score: 0.9334365129470825  
