@@ -51,8 +51,8 @@ The CSV file containing standardized phrases should have one phrase per row. The
 
 Example CSV format:
 
-Standardized Phrase 1
-Standardized Phrase 2
+Standardized Phrase 1__
+Standardized Phrase 2__
 Standardized Phrase 3
 ...
 
@@ -72,16 +72,16 @@ Suppose you have an input text file input.txt with the following content:
 This is a simple example. I need some suggestions. Improve this text!
 And you have a CSV file ('Standardised terms.csv') with standardized phrases like:
 
-simple example
-need suggestions
+simple example__
+need suggestions__
 improve text
 
 
 When you run the script with python main.py --input simple_text.txt, it will output suggestions like:
 
 Suggestions:
-Original: This is a simple example, Suggestion: simple example, Similarity Score: 0.9734365129470825
-Original: I need some suggestions, Suggestion: need suggestions, Similarity Score: 0.9732131121385361
+Original: This is a simple example, Suggestion: simple example, Similarity Score: 0.9734365129470825__
+Original: I need some suggestions, Suggestion: need suggestions, Similarity Score: 0.9732131121385361__
 Original: Improve this text!, Suggestion: improve text, Similarity Score: 0.9999999377406093
 
 The script identifies phrases in the input text and suggests replacing them with the most similar standardized phrases from your CSV file.
