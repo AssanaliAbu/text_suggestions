@@ -14,7 +14,7 @@ The **Phrase Improvement Engine** is a Python script designed to analyze an inpu
 
 To run the Phrase Improvement Engine, you need the following:
 
-- Python 3.x
+- Python 3.6+
 - [spaCy](https://spacy.io/) library with the English model (`en_core_web_md`)
 - A CSV file containing standardized phrases (e.g., 'Standardised terms.csv')
 
