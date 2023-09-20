@@ -9,7 +9,7 @@ The **Phrase Improvement Engine** is a Python script designed to analyze an inpu
 3. [CSV File Format](#csv-file-format)
 4. [How It Works](#how-it-works)
 5. [Example](#example)
-
+6. 
 ## Requirements
 
 To run the Phrase Improvement Engine, you need the following:
@@ -22,6 +22,7 @@ You can install spaCy and download the English model using the following command
 ```bash
 pip install spacy
 python -m spacy download en_core_web_md
+```
 
 ## Usage
 To use the Phrase Improvement Engine, follow these steps:
@@ -35,12 +36,14 @@ To use the Phrase Improvement Engine, follow these steps:
 4. Open a terminal and navigate to the directory containing the script and input file.
 
 5. Run the script with the following command:
+   ```cmd
 
     python main.py --input sample_text.txt
+   ```
 
-6. The script will process the input text, split it into phrases, and generate suggestions for improving each phrase.
+7. The script will process the input text, split it into phrases, and generate suggestions for improving each phrase.
 
-7. The suggestions, along with their similarity scores, will be displayed in the terminal.
+8. The suggestions, along with their similarity scores, will be displayed in the terminal.
 
 
 ## CSV File Format
